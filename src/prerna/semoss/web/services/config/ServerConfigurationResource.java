@@ -204,7 +204,8 @@ public class ServerConfigurationResource {
 		loadConfig.put("pipelineLandingFilter", Utility.getApplicationPipelineLandingFilter());
 		loadConfig.put("pipelineSourceFilter", Utility.getApplicationPipelineSourceFilter());
 		loadConfig.put("widgetTabShareExportList", Utility.getApplicationWidgetTabShareExportList());
-//		loadConfig.put("widgetTabExportDashboard", Utility.getApplicationWidgetTabExportDashboard());
+//		loadConfig.put("widgetTabExportDashboard", Utility.getApplicationWidgetTabExportDashboard());		
+		loadConfig.put("coreAdminFlag", Utility.getAICoreAppFlag());
 		
 		ServerConfigurationResource.config = loadConfig;
 	}
