@@ -206,7 +206,8 @@ public class ServerConfigurationResource {
 		loadConfig.put("widgetTabShareExportList", Utility.getApplicationWidgetTabShareExportList());
 //		loadConfig.put("widgetTabExportDashboard", Utility.getApplicationWidgetTabExportDashboard());		
 		loadConfig.put("coreAdminFlag", Utility.getAICoreAppFlag());
-		
+		loadConfig.put("coreAINonApprovedFlag", Utility.getCoreAINonApprovedFlag());
+
 		ServerConfigurationResource.config = loadConfig;
 	}
 
