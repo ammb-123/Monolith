@@ -205,9 +205,10 @@ public class ServerConfigurationResource {
 		loadConfig.put("pipelineSourceFilter", Utility.getApplicationPipelineSourceFilter());
 		loadConfig.put("widgetTabShareExportList", Utility.getApplicationWidgetTabShareExportList());
 //		loadConfig.put("widgetTabExportDashboard", Utility.getApplicationWidgetTabExportDashboard());		
-		loadConfig.put("coreAdminFlag", Utility.getAICoreAppFlag());
-		loadConfig.put("coreAINonApprovedFlag", Utility.getCoreAINonApprovedFlag());
-
+		loadConfig.put("adminOnlyViewMenuBarFlag", Utility.getAdminOnlyViewMenuBarFlag());
+		loadConfig.put("adminOnlyNonAprrovedFlag", Utility.getAdminOnlyNonAprrovedFlag());
+//		loadConfig.put("widgetTabExportDashboard", Utility.getApplicationWidgetTabExportDashboard());
+	
 		ServerConfigurationResource.config = loadConfig;
 	}
 
